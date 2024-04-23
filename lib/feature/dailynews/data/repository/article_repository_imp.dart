@@ -8,7 +8,7 @@ import 'package:news_app_clean_architecture/feature/dailynews/domain/entities/ar
 import 'package:news_app_clean_architecture/feature/dailynews/domain/repository/article_repository.dart';
 
 import '../../../../core/constants/constants.dart';
-import '../datasource/app_database.dart';
+import '../datasource/local/app_database.dart';
 
 class ArticleRepositoryImp implements ArticleRepository{
   NewsApiService _newsApiService;

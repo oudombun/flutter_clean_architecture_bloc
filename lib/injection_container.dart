@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:floor/floor.dart';
 import 'package:get_it/get_it.dart';
-import 'package:news_app_clean_architecture/feature/dailynews/data/datasource/app_database.dart';
+import 'package:news_app_clean_architecture/feature/dailynews/data/datasource/local/app_database.dart';
 import 'package:news_app_clean_architecture/feature/dailynews/data/repository/article_repository_imp.dart';
 
 import 'feature/dailynews/data/datasource/remote/news_api_service.dart';
